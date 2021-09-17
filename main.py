@@ -187,8 +187,8 @@ def main():
                 TargetPrice = st.number_input("Enter Target")
                 butt = st.button("Send notification")
                 if butt:
-                    EMAIL_ADDRESS = "ayush2001ssharma@gmail.com"
-                    EMAIL_PASSWORD = "fozeufoxxawgvfsn"
+                    EMAIL_ADDRESS = ""	#email ID here
+                    EMAIL_PASSWORD = "" #password here
 
                     msg = EmailMessage()
 
