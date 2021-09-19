@@ -28,7 +28,6 @@ from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 from plotly import graph_objs as go
 
-# passlib,hashlib,bcrypt,scrypt
 import hashlib
 
 
@@ -42,14 +41,13 @@ def check_hashes(password, hashed_text):
     return False
 
 
-# DB Management
+
 import sqlite3
 
 conn = sqlite3.connect('data.db')
 c = conn.cursor()
 
 
-# DB  Functions
 def create_usertable():
     c.execute('CREATE TABLE IF NOT EXISTS userstable(username TEXT,password TEXT)')
 
