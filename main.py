@@ -2,10 +2,8 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 from newsapi import NewsApiClient
-
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-
 import smtplib
 import imghdr
 from email.message import EmailMessage
@@ -15,7 +13,6 @@ from datetime import date
 import pandas as pd
 from pandas_datareader import data as pdr
 import time
-
 import yfinance as yf
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
