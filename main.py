@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr 27 17:43:31 2021
 
-@author: lenovo
-"""
 
 import streamlit as st
 from PIL import Image
