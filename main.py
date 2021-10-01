@@ -7,7 +7,6 @@ from email.mime.text import MIMEText
 import smtplib
 import imghdr
 from email.message import EmailMessage
-
 import datetime as dt
 from datetime import date
 import pandas as pd
