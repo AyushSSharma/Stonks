@@ -74,8 +74,6 @@ def main():
 
     if choice == "Home":
 
-        # col1,col2=st.beta_columns(2)
-        # col1.image(image)
         st.write("")
         st.write(
             "This study is mainly confined to the stock market behavior and is intended to devise certain techniques for investors to make reasonable returns from investments.")
