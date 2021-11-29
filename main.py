@@ -10,7 +10,6 @@ from email.message import EmailMessage
 import datetime as dt
 from datetime import date
 
-import pandas as pd
 from pandas_datareader import data as pdr
 import time
 import yfinance as yf
